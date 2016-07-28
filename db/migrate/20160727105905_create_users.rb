@@ -4,13 +4,13 @@ class CreateUsers < ActiveRecord::Migration
       t.string :name
       t.date :birthday
       t.integer :math
-      t.integer :liter
-      t.integer :swim
-      t.integer :sing
-      t.integer :computer
-      t.integer :iq
-      t.integer :physic
-      t.integer :temper
+      t.integer :literary
+      t.integer :chemistry
+      t.integer :physical
+      t.integer :biological
+      t.integer :foreign_language
+      t.integer :information_technology
+      t.integer :history
 
       t.timestamps null: false
     end

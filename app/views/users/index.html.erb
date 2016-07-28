@@ -1,0 +1,5 @@
+<%- if @data.present? %>
+  <h1>Data load success!</h1>
+<% end %>
+<div id="all_chart" style="min-width: 800px; max-width: 1000px; height: 600px; margin: 0 auto" data-all-user="<%= @data.flatten %>"></div>
+<button id="button" class="autocompare">Add series</button>
