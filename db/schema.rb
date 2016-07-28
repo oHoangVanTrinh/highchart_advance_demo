@@ -14,18 +14,18 @@
 ActiveRecord::Schema.define(version: 20160727105905) do
 
   create_table "users", force: :cascade do |t|
-    t.string   "name",       limit: 255
+    t.string   "name",                   limit: 255
     t.date     "birthday"
-    t.integer  "math",       limit: 4
-    t.integer  "liter",      limit: 4
-    t.integer  "swim",       limit: 4
-    t.integer  "sing",       limit: 4
-    t.integer  "computer",   limit: 4
-    t.integer  "iq",         limit: 4
-    t.integer  "physic",     limit: 4
-    t.integer  "temper",     limit: 4
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
+    t.integer  "math",                   limit: 4
+    t.integer  "literary",               limit: 4
+    t.integer  "chemistry",              limit: 4
+    t.integer  "physical",               limit: 4
+    t.integer  "biological",             limit: 4
+    t.integer  "foreign_language",       limit: 4
+    t.integer  "information_technology", limit: 4
+    t.integer  "history",                limit: 4
+    t.datetime "created_at",                         null: false
+    t.datetime "updated_at",                         null: false
   end
 
 end
