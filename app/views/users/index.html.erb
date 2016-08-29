@@ -3,3 +3,5 @@
 <% end %>
 <div id="all_chart" style="min-width: 800px; max-width: 1000px; height: 600px; margin: 0 auto" data-all-user="<%= @data.flatten %>"></div>
 <button id="button" class="autocompare">Add series</button>
+
+<div id="container" style="width: 1000px; height: 400px; margin: 0 auto" data-date="<%= @data[0]["date"]%>" data-hcm="<%= @data[0]["hcm"]%>" data-tokyo="<%= @data[0]["tokyo"]%>"></div>

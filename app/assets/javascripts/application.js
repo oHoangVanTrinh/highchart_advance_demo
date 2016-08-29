@@ -16,3 +16,4 @@
 //= require_tree .
 //= require_chart
 //= require_all_chart
+//= require_line_chart

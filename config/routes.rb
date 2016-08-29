@@ -16,6 +16,7 @@ Rails.application.routes.draw do
 
   # Example resource route with options:
   resources :users
+  resources :temperatures
   #     collection do
   #       get 'sold'
   #     end
